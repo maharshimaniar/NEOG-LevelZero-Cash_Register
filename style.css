@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: rgb(105, 241, 105);
+  background-color: rgb(53, 80, 53);
+  color: white;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  min-width: 100vw;
+}
+
+/* Container */
+.container {
+  margin: 4rem auto 7rem;
+  text-align: center;
+}
+
+.heading {
+  color: var(--primary-color);
+}
+
+.description {
+  font-size: larger;
+  margin: 1rem;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+.input-label {
+  display: block;
+  font-size: large;
+  font-weight: 600;
+  color: lightgreen;
+  box-shadow: lightseagreen;
+}
+
+.input {
+  font-size: 14px;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#check-button {
+  background: var(--primary-color);
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: auto;
+  display: block;
+  color: black;
+}
+
+#error-message {
+  display: block;
+  font-size: larger;
+  margin: 1rem 0 0;
+  border: 2px dotted green;
+  width: fit-content;
+  margin : auto;
+  margin-top : 10px;
+  padding : 15px
+}
+
+/* Table */
+.change-table {
+  width: 50%;
+  text-align: justify;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.change-table caption {
+  margin: 1rem auto;
+  font-size: x-large;
+  font-weight: 500;
+}
+
+th,
+td {
+  border: 2px solid var(--primary-color);
+  border-collapse: collapse;
+  padding: 0.4rem;
+  text-align: center;
+  font-size: 1rem;
+  width: 2rem;
+}
